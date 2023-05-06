@@ -4,7 +4,7 @@ import socket
 
 #PORT IS CHANGEABLE
 
-address=("YOUT IP", 2005)
+address=("YOUR IP", 2005)
 
 main_socket=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
