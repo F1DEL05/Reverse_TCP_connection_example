@@ -2,7 +2,9 @@
 
 import socket
 
-address=("192.168.1.29",2005)
+#PORT is changeable
+
+address=("CONNECTION IP",2005)
 
 socket_t=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 try:
